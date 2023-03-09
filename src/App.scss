@@ -1,0 +1,20 @@
+body {
+  background: #000716fd;
+}
+
+#root {
+  max-width: 1400px;
+  margin: auto;
+  padding: 16px;
+}
+
+div[data-style="body_container"] {
+  max-width: 1200px;
+  margin: auto;
+}
+
+div[data-style="alert_container"] {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
